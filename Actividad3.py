@@ -12,5 +12,11 @@ elif op == 2:
     print("RESTA")
     cant1 = int(input("Ingrea la primer cantidad: "))
     cant2 = int(input("Ingresa la segunda cantidad que restará: "))
-    res = cant1 - cant2
-    print(f"El resultado de la resta es: {res}")
+    resp = cant1 - cant2
+    print(f"El resultado de la resta es: {resp}")
+elif op == 3:
+    print("MULTIPLICACIÓN")
+    multi1 = int(input("Ingresa la primera cantidad: "))
+    multi2 = int(input("Ingresa la segunda cantidad a multiplicar: "))
+    resp = multi1 * multi2
+    print(f"El resultado de la multiplicación es: {resp}")
