@@ -8,3 +8,9 @@ if op == 1:
         num = int(input(f"Ingrese la cantidad #{i+1} que sumará: "))
         suma += num
     print(f"El total de la suma es: {suma}")
+elif op == 2:
+    print("RESTA")
+    cant1 = int(input("Ingrea la primer cantidad: "))
+    cant2 = int(input("Ingresa la segunda cantidad que restará: "))
+    res = cant1 - cant2
+    print(f"El resultado de la resta es: {res}")
